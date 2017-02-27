@@ -1,0 +1,412 @@
+* {
+    font: 75 11pt "Arial Narrow";
+
+}
+
+*[readonly="true"] {
+    background-color: silver;
+    font: bold;
+}
+
+QComboBox {
+    background-color: white;
+    margin-left: 0px;
+}
+
+QCheckBox#G01CheckBoxEmissions,
+QCheckBox#G02CheckBoxEmissions,
+QCheckBox#G03CheckBoxEmissions,
+QCheckBox#G04CheckBoxEmissions,
+QCheckBox#G05CheckBoxEmissions,
+QCheckBox#G06CheckBoxEmissions,
+QCheckBox#G07CheckBoxEmissions,
+QCheckBox#G08CheckBoxEmissions,
+QCheckBox#G09CheckBoxEmissions,
+QCheckBox#G10CheckBoxEmissions,
+QCheckBox#G11CheckBoxEmissions,
+QCheckBox#G12CheckBoxEmissions,
+QCheckBox#G13CheckBoxEmissions,
+QCheckBox#G14CheckBoxEmissions,
+QCheckBox#G15CheckBoxEmissions,
+QCheckBox#G16CheckBoxEmissions,
+QCheckBox#G17CheckBoxEmissions,
+QCheckBox#G18CheckBoxEmissions,
+QCheckBox#G19CheckBoxEmissions,
+QCheckBox#G20CheckBoxEmissions,
+QCheckBox#G21CheckBoxEmissions,
+QCheckBox#G22CheckBoxEmissions,
+QCheckBox#G23CheckBoxEmissions,
+QCheckBox#G24CheckBoxEmissions {
+    font: bold 9px;
+    padding: 1px;
+    spacing: 50px;
+}
+
+QCheckBox#G01CheckBoxDetails,
+QCheckBox#G02CheckBoxDetails,
+QCheckBox#G03CheckBoxDetails,
+QCheckBox#G04CheckBoxDetails,
+QCheckBox#G05CheckBoxDetails,
+QCheckBox#G06CheckBoxDetails,
+QCheckBox#G07CheckBoxDetails,
+QCheckBox#G08CheckBoxDetails,
+QCheckBox#G09CheckBoxDetails,
+QCheckBox#G10CheckBoxDetails,
+QCheckBox#G11CheckBoxDetails,
+QCheckBox#G12CheckBoxDetails,
+QCheckBox#G13CheckBoxDetails,
+QCheckBox#G14CheckBoxDetails,
+QCheckBox#G15CheckBoxDetails,
+QCheckBox#G16CheckBoxDetails,
+QCheckBox#G17CheckBoxDetails,
+QCheckBox#G18CheckBoxDetails,
+QCheckBox#G19CheckBoxDetails,
+QCheckBox#G20CheckBoxDetails,
+QCheckBox#G21CheckBoxDetails,
+QCheckBox#G22CheckBoxDetails,
+QCheckBox#G23CheckBoxDetails,
+QCheckBox#G24CheckBoxDetails {
+    font: bold 9px;
+    spacing: 130px;
+}
+
+QCheckBox#perGarantCouvrSinistrCheckBox {
+    background-color: skyblue;
+    margin-right: 0px;
+    spacing: 110px;
+}
+
+QCheckBox {
+    background-color: oldlace;
+    margin: 0px;
+    margin-top: 2px;
+}
+
+QCheckBox#cartRosCheckBox, QCheckBox#matInflamCheckBox, QCheckBox#vehiculeActifCheckBox,
+QCheckBox#checkBoxCarteRose, QCheckBox#checkBoxInflammable, QCheckBox#checkBoxVehiculeActif {
+    font: bold 11px;
+    border-width: 0px;
+    padding: 4px 1px;
+    margin: 1px;
+}
+/* Emi */
+QCheckBox#cartRosCheckBox{
+    spacing: 90px;
+}
+QCheckBox#matInflamCheckBox{
+    spacing: 50px;
+}
+QCheckBox#vehiculeActifCheckBox{
+    spacing: 78px;
+}
+/* Dec Sin */
+QCheckBox#checkBoxCarteRose{
+    spacing: 100px;
+}
+QCheckBox#checkBoxInflammable{
+    spacing: 60px;
+}
+QCheckBox#checkBoxVehiculeActif{
+    spacing: 90px;
+}
+
+QCheckBox#checkboxremember{
+    spacing: 30px;
+    background-color: none;
+}
+
+QCheckBox#revSurEncaissCheckBox {
+    spacing: 65px;
+}
+QCheckBox#revNetCommisCheckBox {
+    spacing: 60px;
+}
+
+QCheckBox::indicator {
+    color: none;
+    subcontrol-origin: content;
+    subcontrol-position: left top;
+}
+
+QFrame#frameGarantieCouvreSinistre {
+    background-color: skyblue;
+}
+
+QFrame#frameObjetAssureEmissions {
+    background-color: none;
+    padding: 0px;
+}
+
+
+QFrame#frameObjetAssureSinistres {
+    background-color: none;
+    padding: 0px;
+}
+
+
+QFrame#frameOperationProduction {
+    background-color: none;
+    padding: -5px -5px -5px -6px;
+}
+
+
+QFrame#framePersonne {
+    background-color: none;
+    padding: -5px;
+}
+
+
+QFrame#framePoliceEmissions {
+    background-color: none;
+    padding: 3px 1px 0px 1px;
+}
+
+
+QFrame#framePoliceSinistres {
+    background-color: none;
+    padding: 0px;
+}
+
+
+QFrame#frameSinistre {
+    background-color: none;
+    padding: 0px;
+}
+
+
+QFrame {
+    /*border: 2px solid black;*/
+    margin:-1px;
+    padding: -1px -1px -1px -1px;
+}
+
+QGroupBox#garantiesGroupBox {
+    font: bold 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 4px 1px 2px 1px;
+}
+
+QGroupBox#RechercheMouvementImpliqueDansSinistre {
+    margin: 1px;
+    padding: -5px -5px -5px -5px;
+}
+/*
+QGroupBox#attRemGroupBox {
+    margin: 0px;
+    padding: 0px;
+
+}
+*/
+
+QGroupBox {
+    background-color: none;
+    border-width: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding: 7px 0px 0px 0px;
+}
+
+QGroupBox::indicator {
+    /*background-color: red;*/
+    width: 10px;
+    height: 10px;
+}
+
+QGroupBox#attRemGroupBoxEmissions::title {
+    background-color: oldlace;
+    width: 10px;
+    height: 10px;
+}
+
+
+QGroupBox#attRemGroupBoxSinistres::title {
+    background-color: silver;
+    width: 10px;
+    height: 10px;
+}
+
+QGroupBox::title {
+    color: none;
+    margin-bottom: 5px;
+    margin-top: -3px;
+    padding: 1px 1px;
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+}
+
+QGroupBox > QCheckBox {
+    /*background-color: red;*/
+    font: 11px bold;
+    /*border-width: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding: 7px 0px 0px 0px;*/
+}
+
+
+QGroupBox > QCheckBox::indicator {
+    color: red;
+    width: 10px;
+    height: 10px;
+    /*font: 11px bold;*/
+    /*border-width: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding: 7px 0px 0px 0px;*/
+}
+
+
+QLabel#labelAnalysePrejudices {
+    background-color: navy;
+    color: white;
+    font: bold 18px;
+}
+
+QLabel#labelAssureurVictimesSinistre {
+    background-color: olive;
+    color: white;
+    font: bold 18px;
+}
+
+QLabel#labelEtatCivilVictime {
+    font: bold 18px;
+}
+
+QLabel#labelInfoSurTiers {
+    font: 14px;
+}
+
+QLabel#labelListeSinistresVictime {
+    background-color: lightseagreen;
+    color: white;
+    font: bold 18px;
+}
+
+QLabel#logoLabel, QLabel#msgLogoLabel {
+    background-color: none;
+    font: 11px;
+}
+
+QLabel#msgLogoLabel {
+    font: bold 28px;
+}
+
+QLabel#labelSinistreEnCours {
+    background-color: mediumorchid;
+    color: white;
+    font: bold 23px;
+    padding: 5px 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+QLabel#labelVictimesEnregistrees {
+    background-color: darkmagenta;
+    color: white;
+    font: bold 16pt;
+}
+
+QLabel, QLineEdit, QComboBox {
+    border-color: black;
+    border-width: 0px;
+    padding: 0 -1px;
+    margin: 1px;
+}
+
+QLabel {
+    background-color: oldlace;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    padding: 0px 0px 0px 1px;
+}
+
+QLabel#labelEmissions, QLabel#labelPaiements, QLabel#labelSolde, QLabel#labelDebits, QLabel#labelRistournes,
+QLabel#labelComptant, QLabel#labelEmission, QLabel#labelPaiement {
+    font: bold 11px;
+    background-color: springgreen;
+    padding: 5px 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+QLabel#labelInfoSurTiers {
+    padding: 5px 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+QLabel#labelDetailsGaranties, QLabel#labelRecapPrimes, QLabel#labelMouvAssocies, QLabel#labelTypeDoc {
+    font: bold 14px;
+    background-color: none;
+    padding: 3px 0px;
+}
+
+QLineEdit#emissionLineEdit, QLineEdit#emissionsLineEdit, QLineEdit#paiementLineEdit, QLineEdit#paiementsLineEdit,
+QLineEdit#soldeLineEdit, QLineEdit#debitsLineEdit, QLineEdit#ristourneLineEdit, QLineEdit#comptantLineEdit {
+    background-color: lime;
+}
+
+QLineEdit {
+    background-color: white;
+    margin-left: 0px;
+}
+
+QTableView {
+    border: solid 1px;
+}
+
+QTextBrowser#perGarantCouvrSinistrTextBrowser {
+    background-color: white;
+}
+
+QTextEdit#commMemoTextEdit {
+    background-color: mediumaquamarine; /*lime;*/
+}
+
+QTextEdit {
+    background-color: white;
+}
+
+QToolButton {
+    font: bold 11px;
+}
+
+
+/*
+QToolBar > QGroupBox#RechercheMouvementImpliqueDansSinistre {
+    margin: 1ex;
+    padding: -5px -5px -5px -5px;
+}
+
+
+QGroupBox#LabelledLineEdit{
+    background-color: red;
+}
+
+*/
+
+QMessageBox > QLabel {
+    background-color: none;
+}
+
+QToolBar > QGroupBox {
+    padding: -10px 0px;
+    margin: 0px;
+    font: bold;
+}
+
+
+QToolBar > QGroupBox > LabelledLineEdit {
+    padding: -10px 0px;
+    margin: 0px;
+}
+
+QToolBar > QGroupBox > LabelledLineEdit > QLabel {
+    font: bold 11px;
+    background-color: none;
+    /*padding: -10px 0px;
+    margin: 0px;*/
+}

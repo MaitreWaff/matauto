@@ -1,0 +1,243 @@
+* {
+    font: 75 11pt "Arial Narrow";
+
+}
+
+*[readonly="true"] {
+    background-color: silver;
+    font: bold;
+}
+
+QComboBox {
+    background-color: white;
+    margin-left: 0px;
+}
+
+QCheckBox#G01CheckBox,
+QCheckBox#G02CheckBox,
+QCheckBox#G03CheckBox,
+QCheckBox#G04CheckBox,
+QCheckBox#G05CheckBox,
+QCheckBox#G06CheckBox,
+QCheckBox#G07CheckBox,
+QCheckBox#G08CheckBox,
+QCheckBox#G09CheckBox,
+QCheckBox#G10CheckBox,
+QCheckBox#G11CheckBox,
+QCheckBox#G12CheckBox,
+QCheckBox#G13CheckBox,
+QCheckBox#G14CheckBox,
+QCheckBox#G15CheckBox,
+QCheckBox#G16CheckBox,
+QCheckBox#G17CheckBox,
+QCheckBox#G18CheckBox,
+QCheckBox#G19CheckBox,
+QCheckBox#G20CheckBox,
+QCheckBox#G21CheckBox,
+QCheckBox#G22CheckBox,
+QCheckBox#G23CheckBox,
+QCheckBox#G24CheckBox {
+    font: bold 9px;
+}
+
+QCheckBox#perGarantCouvrSinistrCheckBox {
+    background-color: skyblue;
+    margin-right: 0px;
+}
+
+QCheckBox {
+    background-color: oldlace;
+    margin: 0px;
+    margin-top: 2px;
+}
+
+QCheckBox#cartRosCheckBox, QCheckBox#matInflamCheckBox, QCheckBox#vehiculeActifCheckBox,
+QCheckBox#checkBoxCarteRose, QCheckBox#checkBoxInflammable, QCheckBox#checkBoxVehiculeActif {
+    font: bold 11px;
+    border-width: 0px;
+    padding: 4px 1px;
+    margin: 1px;
+}
+
+QFrame#frameGarantieCouvreSinistre {
+    background-color: skyblue;
+}
+
+
+QFrame {
+    margin:-1px;
+    padding: -1px;
+}
+
+QGroupBox#garantiesGroupBox {
+    font: bold 10px;
+}
+
+QGroupBox#RechercheMouvementImpliqueDansSinistre {
+    margin: 1ex;
+    padding: -5px -5px -5px -5px;
+}
+
+QGroupBox#attRemGroupBox {
+    margin: 1ex;
+    padding: 10px;
+}
+
+QGroupBox {
+    margin: 1ex;
+    padding: 5 3px;
+}
+
+QLabel#labelAnalysePrejudices {
+    background-color: navy;
+    color: white;
+    font: bold 18px;
+}
+
+QLabel#labelAssureurVictimesSinistre {
+    background-color: olive;
+    color: white;
+    font: bold 18px;
+}
+
+QLabel#labelEtatCivilVictime {
+    font: bold 18px;
+}
+
+QLabel#labelInfoSurTiers {
+    font: 15px;
+}
+
+QLabel#labelListeSinistresVictime {
+    background-color: lightseagreen;
+    color: white;
+    font: bold 18px;
+}
+
+QLabel#logoLabel, QLabel#msgLogoLabel {
+    background-color: none;
+    font: 11px;
+}
+
+QLabel#msgLogoLabel {
+    font: bold 28px;
+}
+
+QLabel#labelSinistreEnCours {
+    background-color: mediumorchid;
+    color: white;
+    font: bold 23px;
+    padding: 5px 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+QLabel#labelVictimesEnregistrees {
+    background-color: darkmagenta;
+    color: white;
+    font: bold 16pt;
+}
+
+QLabel, QLineEdit, QComboBox {
+    border-color: black;
+    border-width: 0px;
+    padding: 0 -1px;
+    margin: 1px;
+}
+
+QLabel {
+    background-color: oldlace;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    padding: 0px 0px 0px 1px;
+}
+
+QLabel#labelEmissions, QLabel#labelPaiements, QLabel#labelSolde, QLabel#labelDebits, QLabel#labelRistournes,
+QLabel#labelComptant, QLabel#labelEmission, QLabel#labelPaiement {
+    font: bold 11px;
+    background-color: springgreen;
+    padding: 5px 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+QLabel#labelInfoSurTiers {
+    padding: 5px 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+QLabel#labelDetailsGaranties, QLabel#labelRecapPrimes, QLabel#labelMouvAssocies, QLabel#labelTypeDoc {
+    font: bold 14px;
+    background-color: none;
+    padding: 3px 0px;
+}
+
+QLineEdit#emissionLineEdit, QLineEdit#emissionsLineEdit, QLineEdit#paiementLineEdit, QLineEdit#paiementsLineEdit,
+QLineEdit#soldeLineEdit, QLineEdit#debitsLineEdit, QLineEdit#ristourneLineEdit, QLineEdit#comptantLineEdit {
+    background-color: lime;
+}
+
+QLineEdit {
+    background-color: white;
+    margin-left: 0px;
+}
+
+QTableView {
+    border: solid 1px;
+}
+
+QTextBrowser#perGarantCouvrSinistrTextBrowser {
+    background-color: white;
+}
+
+QTextEdit#commMemoTextEdit {
+    background-color: mediumaquamarine; /*lime;*/
+}
+
+QTextEdit {
+    background-color: white;
+}
+
+QToolButton {
+    font: bold 11px;
+}
+
+
+/*
+QToolBar > QGroupBox#RechercheMouvementImpliqueDansSinistre {
+    margin: 1ex;
+    padding: -5px -5px -5px -5px;
+}
+
+
+QGroupBox#LabelledLineEdit{
+    background-color: red;
+}
+
+*/
+
+QMessageBox > QLabel {
+    background-color: none;
+}
+
+QToolBar > QGroupBox {
+    padding: -10px 0px;
+    margin: 0px;
+    font: bold;
+}
+
+
+QToolBar > QGroupBox > LabelledLineEdit {
+    padding: -10px 0px;
+    margin: 0px;
+}
+
+QToolBar > QGroupBox > LabelledLineEdit > QLabel {
+    font: bold 11px;
+    background-color: none;
+    /*padding: -10px 0px;
+    margin: 0px;*/
+}
